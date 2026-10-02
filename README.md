@@ -24,4 +24,6 @@ Shared under [CC BY 4.0](LICENSE). You're welcome to use, adapt, and share these
 
 > Skytta, J. A. F. (2026). *AI Tools for Research Operations*. GitHub. https://github.com/skytta/ai-research-ops-tools
 
+The cartoon images in `images/` are fan art, aren't covered by the CC BY license, and aren't affiliated with or endorsed by Microsoft.
+
 Questions about how any of this was built are welcome. Open an issue on this repo.

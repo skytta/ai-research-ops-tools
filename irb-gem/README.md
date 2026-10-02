@@ -1,6 +1,8 @@
 # IRB Drafting Gem
 
-A Gemini Gem that helps research staff draft IRB protocol content. It asks questions first, drafts one section at a time, and waits for your review before moving on, so you stay in control of every word that goes to your IRB.
+![Three cartoon paperclips seated at an IRB review panel, one pointing at a submission folder](../images/irb-panel.png)
+
+An AI assistant (built as a Gemini Gem, also works in ChatGPT and Claude) that helps research staff draft IRB protocol content. It asks questions first, drafts one section at a time, and waits for your review before moving on, so you stay in control of every word that goes to your IRB.
 
 ## Set it up (about 10 minutes)
 

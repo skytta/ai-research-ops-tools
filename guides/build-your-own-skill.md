@@ -1,5 +1,7 @@
 # Build Your Own Claude Skill
 
+![A cartoon paperclip happily building something at a laptop](../images/skill-builder.png)
+
 A skill is a set of instructions Claude loads automatically when a task matches. Think of it like a standard operating procedure: you write it once, and Claude follows it every time the situation comes up, so you stop retyping the same long prompt.
 
 Good candidates are tasks you do repeatedly where you keep correcting Claude the same way. A compliance email format, how you want statistical output explained, a checklist for reviewing a document.

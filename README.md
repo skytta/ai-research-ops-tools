@@ -8,7 +8,7 @@ These came out of real daily work: drafting IRB submissions, writing compliance 
 
 | Folder | What it is | Runs in |
 |---|---|---|
-| [`irb-gem/`](irb-gem/) | Instructions for a Gemini Gem that walks you through drafting IRB protocol content section by section | Google Gemini or ChatGPT Projects |
+| [`irb-gem/`](irb-gem/) | Instructions for a Gemini Gem that walks you through drafting IRB protocol content section by section | Google Gemini, ChatGPT Projects, or Claude Projects |
 | [`skills/humanize-writing/`](skills/humanize-writing/) | A Claude skill that strips common AI writing tells out of drafts | Claude |
 | [`guides/build-your-own-skill.md`](guides/build-your-own-skill.md) | A short walkthrough for building your own Claude skill from scratch | Claude |
 

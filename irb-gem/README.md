@@ -22,6 +22,17 @@ The same instructions work in a [ChatGPT Project](https://help.openai.com/en/art
 
 Wherever the instructions say "Canvas," ChatGPT will use its own canvas feature.
 
+## Using Claude instead
+
+The same instructions also work in a [Claude Project](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects).
+
+1. Go to [claude.ai/projects](https://claude.ai/projects) and click **+ New Project**.
+2. Click **Set project instructions**, paste everything in [`gem-instructions.md`](gem-instructions.md), and save.
+3. Click **+** on the project page to add your IRB's documents to project knowledge.
+4. Start a chat inside the project.
+
+Free accounts can make up to five projects. Wherever the instructions say "Canvas," Claude will put that text in an artifact instead.
+
 ## Adapting it for your institution
 
 The instructions reference document types common to many IRBs. If your IRB uses different template names, edit those references in the instructions so they match what you uploaded. The Gem only knows what you give it.

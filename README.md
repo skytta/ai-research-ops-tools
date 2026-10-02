@@ -1,6 +1,6 @@
 # AI Tools for Research Operations
 
-Practical AI tools for clinical research teams, built by **Jenny AF Skytta**, Clinical Research Manager at Seattle Children's Research Institute.
+Practical AI tools for clinical research teams, built by **Jenny AF Skytta**, a clinical research manager and IRB member.
 
 These came out of real daily work: drafting IRB submissions, writing compliance correspondence, and teaching colleagues to build their own tools. The core idea behind all of them is that AI compresses the build time, but it doesn't replace the domain knowledge you need to get the output right. Every draft these tools produce still needs a qualified human reviewer.
 

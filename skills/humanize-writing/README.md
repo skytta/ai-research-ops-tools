@@ -1,11 +1,13 @@
-# Humanize Writing
+# Humanize Text – UPDATE *** Oct 2026***
 
-This skill cleans up the style tells that make a draft read like AI: the stock vocabulary, the throat-clearing phrases, the tidy three-item lists, and the summary paragraph nobody asked for. Install it in Claude and it'll check its own drafts against those rules before handing them back.
+This skill was created to remove common AI indicators like repetitive lexicon, filler phrases, standard three-item sequences, and unneeded summary sections. Once loaded into Claude, the skill can evaluate its output against these standards prior to output.
 
-## What this skill doesn't do
+## Limitations of this Skill
 
-In August 2026, Anthropic [announced](https://www.anthropic.com/news/claude-text-watermark) that it's watermarking text Claude generates. The watermark lives in Claude's word choices, which means it isn't something you can see or edit out by fixing style. When Claude runs this skill on a draft, Claude is still the one writing the new version, so the rewrite carries its own watermark. This skill makes your writing better. It won't make it untraceable, and it was never meant to.
+Watermarks are embedded in the text Claude produces, a fact Anthropic [announced](https://www.anthropic.com/news/claude-text-watermark) in August 2026. Because these markers are woven into the model's word choices, they are invisible and cannot be removed through stylistic editing via Claude itself. Even when Claude applies this skill to a draft, the AI remains the author of the new version; thus, the watermark remains. This is also true for other AI operations like OpenAI in an effort to conform to EU regulations.
 
-If you need text that doesn't carry Claude's watermark, the honest route is rewriting it yourself. The more of the final wording that's yours, the less signal there is. For a tool-assisted approach, Guillaume Meyer's MIT-licensed [watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) strips hidden characters and file metadata, and it can rewrite text with a different model. Point it at a local model through Ollama so your text never leaves your machine. The author describes the rewrite step as best effort, and no one can currently verify that it works, because Anthropic's detection API isn't public.
+The most transparent way to produce text without Claude's watermark is to rewrite it yourself. This way, you minimize the detectable ‘AI tells’.
 
-Before you strip a watermark from anything, check the rules that apply to you. Journals, funders, and institutions are setting their own AI disclosure requirements, and NIH has said it won't consider applications substantially developed by AI to be original ideas ([NOT-OD-25-132](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-132.html)). Removing a watermark doesn't change what those policies require.
+Alternatively, you can use Guillaume Meyer's MIT-licensed [watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) to strip metadata and hidden characters or to rewrite text via a different model. To keep your data on your own hardware, point the tool at a local model using Ollama (or other local tool). One caveat, because Anthropic’s detection API is not public, the success of the "best effort" rewriting process described by the author cannot be verified.
+
+Always consult the relevant regulations before attempting to strip a watermark. Various institutions, funders, and journals are establishing AI disclosure mandates. For instance, the NIH ([NOT-OD-25-132](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-132.html)) has stated that applications largely developed by AI will not be viewed as original ideas. Obscuring a watermark does not change these policy requirements.
